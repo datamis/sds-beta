@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import {  Button, CardBody, Card } from 'reactstrap';
-
+//import {  Button, CardBody, Card } from 'reactstrap';
+import Button from 'antd/lib/button';
 
  const {ipcRenderer} = require('electron');
 

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { UncontrolledCollapse, Button, CardBody, Card, Jumbotron, Container, Row, Col} from 'reactstrap';
+//import { UncontrolledCollapse, Button, CardBody, Card, Jumbotron, Container, Row, Col} from 'reactstrap';
 
 import OpenFolderBTN from '../buttons/openFolderButton';
 
