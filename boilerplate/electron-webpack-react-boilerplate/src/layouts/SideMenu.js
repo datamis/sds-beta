@@ -43,7 +43,7 @@ class SideMenu extends Component {
 
                 <div className="side-menu-logo" >
                     <h1>
-                        <Link to="/">Project</Link>
+                        <Link to="/">SDS</Link>
                     </h1>
                 </div>
 

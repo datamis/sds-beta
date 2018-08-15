@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import { Layout, Icon } from 'antd';
+import { Layout, Icon, Button } from 'antd';
 
 import './HeaderBar.scss';
 
@@ -14,11 +14,8 @@ export default class HeaderBar extends Component {
         return (
             <Header className="header-bar" >
 
-                <Icon type="user" />
-
-                <span style={{ marginLeft: 8 }}>
-                    My Project
-                </span>
+            
+                <Button type="primary" > Open Folder </Button>
 
             </Header>
         );
