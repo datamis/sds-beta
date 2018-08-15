@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import { Layout } from 'antd';
-
+import UserForm from './userForm';
 import HeaderBar from './HeaderBar';
 import ContentRoutes from './ContentRoutes';
 import './MainLayout.scss';
@@ -17,6 +17,7 @@ export default class MainLayout extends Component {
                 <SideMenu />
                 <Layout>
                     <HeaderBar />
+            
                     <ContentRoutes />
                 </Layout>
             </Layout>

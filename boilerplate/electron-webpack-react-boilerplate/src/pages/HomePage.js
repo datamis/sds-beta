@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import { Card, Row, Col } from 'antd';
+import { Layout, Card, Row, Col } from 'antd';
 
 import './HomePage.scss';
 import LineChart from '../components/LineChart';
@@ -15,6 +15,7 @@ export default class HomePage extends Component {
 
     render() {
         return (
+        
             <div>
                 <h1>Dashboard</h1>
                 <Row className="home-page-tile-row">

@@ -7,6 +7,10 @@ import { Link, withRouter } from 'react-router-dom';
 import './SideMenu.scss';
 import { ROUTES_ITEMS } from './ContentRoutes';
 
+import logo from '../logo.svg';
+
+
+
 const { Sider } = Layout;
 
 class SideMenu extends Component {
@@ -42,7 +46,9 @@ class SideMenu extends Component {
             >
 
                 <div className="side-menu-logo" >
+                <img src={logo} className="App-logo" alt="logo" />
                     <h1>
+
                         <Link to="/">SDS</Link>
                     </h1>
                 </div>
